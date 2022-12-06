@@ -1,9 +1,6 @@
 # Robust STCAR Filter
 
-This is an [Rcpp code](https://www.rcpp.org/) that can be loaded in the `R` console via the command
-```
-Rcpp::sourceCpp("stcar.cpp")
-```
+The file `stcar.cpp` contains an [Rcpp code](https://www.rcpp.org/) that can be loaded in `R` via the script `load.R`
 
 The code allows to estimate a Spatio-Temporal Conditional Auto-Regressive (STCAR) model, with slowly time-varying parameters, via an adaptive filter that is robust to outliers.
 
